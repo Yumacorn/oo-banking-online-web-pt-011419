@@ -8,5 +8,6 @@ class BankAccount
   end
 
   def deposit(amt)
+    @balance += amt
   end
 end
